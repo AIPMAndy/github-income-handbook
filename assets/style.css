@@ -162,3 +162,9 @@ body{font-size:15px}
 @media(max-width:950px){.hero-grid{grid-template-columns:1fr!important}.hero-visual{max-width:620px!important}.hero{padding:76px 0 44px!important}}
 @media(max-width:650px){.hero{padding-top:52px!important}.hero-text{padding:0}.hero-visual{max-width:none!important}.hero-grid{gap:28px!important}.hero-text h1{font-size:clamp(55px,11vw,75px)!important}}
 
+
+
+/* Flatten remaining legacy accent surfaces in the handbook. */
+:where(.searchbox,.week-card,.boundary-list>div,.calc-inputs,.calc-result,.glass-strip,.audit-band,.dialog-wrap){box-shadow:none!important;background:var(--ed-paper)!important;border:1px solid var(--ed-line)!important;border-radius:8px!important}
+:where(.section-dark h2,.section-dark h3,.section-dark p,.section-dark .section-head p){color:var(--ed-ink)!important}
+:where(.chapter-card,.route-card,.red-card,.case-card){background:var(--ed-paper)!important;border:1px solid var(--ed-line)!important;box-shadow:none!important}
