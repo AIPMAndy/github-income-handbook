@@ -3,6 +3,14 @@
 <a href="https://github.com/AIPMAndy/github-income-handbook"><img src="assets/readme-cover.svg" alt="GitHub 赚钱实战指南封面" width="100%" /></a>
 
 <h1>GitHub 赚钱实战指南</h1>
+<p><strong>把开源作品做成真实的商业机会</strong></p>
+<p>20 章实操 · 7 条路径 · 30 天行动计划</p>
+
+<p>
+<a href="https://github.com/AIPMAndy/github-income-handbook/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/AIPMAndy/github-income-handbook?style=flat-square&amp;color=7c8cff" /></a>
+<a href="LICENSE"><img alt="开源许可" src="https://img.shields.io/github/license/AIPMAndy/github-income-handbook?style=flat-square" /></a>
+<a href="https://github.com/AIPMAndy/github-income-handbook/actions/workflows/pages.yml"><img alt="GitHub Pages" src="https://github.com/AIPMAndy/github-income-handbook/actions/workflows/pages.yml/badge.svg" /></a>
+</p>
 <p><strong><a href="https://aipmandy.github.io/github-income-handbook/">📖 在线网站</a> · <a href="templates/30-day-checklist.md">🗺️ 30 天计划</a> · <a href="templates/metrics.csv">📊 漏斗看板</a></strong></p>
 
 <p><a href="https://github.com/AIPMAndy/github-income-handbook">GitHub 赚钱</a>　·　<a href="https://github.com/AIPMAndy/x-income-handbook">X 赚钱</a>　·　<a href="https://github.com/AIPMAndy/threads-income-handbook">Threads 赚钱</a></p>
