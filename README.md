@@ -1,17 +1,23 @@
 <div align="center">
 
-# 用 GitHub 赚钱：从 0 到第一笔收入的保姆级攻略
+<a href="https://github.com/AIPMAndy/github-income-handbook"><img src="assets/readme-cover.svg" alt="GitHub 赚钱实战指南封面" width="100%" /></a>
 
-**更真实的变现逻辑，更锋利的对抗式审核，更高级的液态玻璃风网站。**  
-**不卖暴富神话，不把 Star 当收入。**
+<h1>GitHub 赚钱实战指南</h1>
+<p><strong><a href="https://aipmandy.github.io/github-income-handbook/">📖 在线网站</a> · <a href="templates/30-day-checklist.md">🗺️ 30 天计划</a> · <a href="templates/metrics.csv">📊 漏斗看板</a></strong></p>
 
-[📖 在线阅读（发布 Pages 后）](https://aipmandy.github.io/github-income-handbook/) · [🗺️ 30 天执行计划](./templates/30-day-checklist.md) · [📊 漏斗看板](./templates/metrics.csv) · [💬 商业咨询](https://metaver.vip/services)
+<p><a href="https://github.com/AIPMAndy/github-income-handbook">GitHub 赚钱</a>　·　<a href="https://github.com/AIPMAndy/x-income-handbook">X 赚钱</a>　·　<a href="https://github.com/AIPMAndy/threads-income-handbook">Threads 赚钱</a></p>
 
-作者：[AI 酋长 Andy](https://metaver.vip/) · 微信 **AIPMAndy**（手动搜索添加）
+<p><sub>AI 酋长 Andy · <a href="https://metaver.vip/">个人官网</a> · <a href="https://metaver.vip/services">咨询与陪跑</a> · 微信：<code>AIPMAndy</code></sub></p>
 
 </div>
 
-## 这版比上一版强在哪
+## 3 分钟开始
+
+1. **先看路径**：阅读下方「七条路线怎么选」，选一条适合自己能力的商业路径。
+2. **直接动手**：下载 [30 天执行清单](templates/30-day-checklist.md) 和 [漏斗看板](templates/metrics.csv)。
+3. **验证交付**：用 [在线工具与教程](https://aipmandy.github.io/github-income-handbook/) 梳理需求、线索与收入假设。
+
+## 项目解决什么问题
 
 ### 1）内容更硬
 
@@ -92,7 +98,7 @@
 ```text
 .
 ├── index.html                # 高级液态玻璃风学习站 / 工具
-├── assets/                   # CSS、JS、社交预览、图标
+├── assets/                   # CSS、JS、封面图与图标
 ├── data/                     # 课程目录与路线数据
 ├── chapters/                 # 20 章教程
 ├── playbooks/                # 8 篇详细按键实操手册
