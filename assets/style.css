@@ -168,3 +168,14 @@ body{font-size:15px}
 :where(.searchbox,.week-card,.boundary-list>div,.calc-inputs,.calc-result,.glass-strip,.audit-band,.dialog-wrap){box-shadow:none!important;background:var(--ed-paper)!important;border:1px solid var(--ed-line)!important;border-radius:8px!important}
 :where(.section-dark h2,.section-dark h3,.section-dark p,.section-dark .section-head p){color:var(--ed-ink)!important}
 :where(.chapter-card,.route-card,.red-card,.case-card){background:var(--ed-paper)!important;border:1px solid var(--ed-line)!important;box-shadow:none!important}
+
+
+/* Editorial index treatment: fewer boxed panels, stronger reading rhythm. */
+:where(.route-grid){display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:0 42px!important}
+:where(.route-grid>.route-card){background:transparent!important;border:0!important;border-bottom:1px solid var(--ed-line)!important;border-radius:0!important;padding:27px 0!important;box-shadow:none!important;transform:none!important;outline:none!important}
+:where(.route-grid>.route-card.featured){outline:none!important}
+:where(.route-grid>.route-card):hover{background:transparent!important;border-bottom-color:var(--ed-accent)!important}
+:where(.route-grid>.route-card):before,:where(.route-grid>.route-card):after{display:none!important}
+:where(.route-grid>.route-card h3){font-size:clamp(19px,2.1vw,24px)!important;line-height:1.35!important}
+:where(.route-grid>.route-card p){font-size:13px!important;line-height:1.8!important}
+@media(max-width:700px){:where(.route-grid){grid-template-columns:1fr!important;gap:0!important}}
