@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>用 GitHub 赚钱 · 从 0 到第一笔收入的保姆级攻略 | AI 酋长 Andy</title>
+<meta name="description" content="一套更真实的 GitHub 赚钱教程：20章课程、7条变现路线、30天行动表、对抗式审核、红队审查和高级液态玻璃风网站。">
+<meta property="og:title" content="用 GitHub 赚钱 · 保姆级攻略">
+<meta property="og:description" content="别再盯着 Star 了。真正值钱的，是你能不能把开源资产变成真实交付。">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://aipmandy.github.io/github-income-handbook/assets/social-card.svg">
+<link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./assets/style.css">
+<script defer src="./data/chapters.js"></script>
+<script defer src="./data/routes.js"></script>
+<script defer src="./assets/app.js"></script>
+</head>
+<body>
+<div class="page-orb orb-a"></div>
+<div class="page-orb orb-b"></div>
+<div class="page-orb orb-c"></div>
+<a class="skip" href="#main">跳转正文</a>
+<header class="site-header">
+  <nav class="nav shell" aria-label="主导航">
+    <a class="brand" href="#top" aria-label="首页">
+      <span class="brand-mark">G<span>·</span>I</span>
+      <span>GitHub Income<span class="brand-sub">/ Handbook</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="#paths">变现路线</a>
+      <a href="#playbook">实操流程</a>
+      <a href="#red-team">对抗式审核</a>
+      <a href="#learn">完整课程</a>
+    </div>
+    <div class="nav-actions">
+      <button type="button" class="nav-wechat" data-copy-wechat title="复制业务微信">微信 AIPMAndy <span>↗</span></button>
+      <a class="btn btn-dark btn-small" href="https://metaver.vip/" target="_blank" rel="noopener noreferrer">作者官网 ↗</a>
+    </div>
+  </nav>
+</header>
+<main id="main">
+  <section id="top" class="hero shell-block">
+    <div class="hero-backdrop"></div>
+    <div class="hero-noise"></div>
+    <div class="shell hero-grid">
+      <div class="hero-text">
+        <div class="eyebrow glass-pill"><span class="eyebrow-dot"></span> 2026 · 开源实战指南 <span class="eyebrow-line"></span> 对抗式审核版</div>
+        <h1>用 GitHub<br><span class="gradient-text">赚到第一笔钱。</span></h1>
+        <p class="hero-lead">仓库不是收款码。<br>Star 也不是收入。</p>
+        <p class="hero-sub">真正的链路是：<strong>真实问题 → 开源资产 → 有效线索 → 付费交付 → 复盘迭代</strong>。这版教程把最容易吹过头的部分都拆掉了，只保留能验证、能交付、能复盘的东西。</p>
+        <div class="hero-cta">
+          <a class="btn btn-light" href="#finder">找到适合我的路线 <span>↗</span></a>
+          <a class="btn btn-outline" href="#red-team">先看对抗式审核 <span>↘</span></a>
+        </div>
+        <div class="hero-proof">
+          <span>20 章原创教程</span><i></i>
+          <span>7 条商业路径</span><i></i>
+          <span>30 天行动表</span>
+        </div>
+        <div class="hero-kpis">
+          <div class="glass-kpi"><b>01</b><span>先验证需求，不先做梦</span></div>
+          <div class="glass-kpi"><b>02</b><span>先公开能力，再谈成交</span></div>
+          <div class="glass-kpi"><b>03</b><span>先算净收入，不看虚荣指标</span></div>
+        </div>
+      </div>
+      <aside class="hero-visual" aria-label="GitHub 变现链路图">
+        <div class="hero-panel glass-card">
+          <div class="panel-top">
+            <span class="panel-dot one"></span><span class="panel-dot two"></span><span class="panel-dot three"></span>
+            <span class="panel-title">income-playbook / system</span>
+            <span class="panel-ok">● VERIFIED THINKING</span>
+          </div>
+          <div class="hero-sticker glass-pill">Liquid Glass Edition</div>
+          <div class="flowline"><div class="flow-number">01</div><div><b>真实问题</b><span>有人确实被这个问题反复折磨过</span></div><em>需求</em></div>
+          <div class="flow-connector"></div>
+          <div class="flowline"><div class="flow-number">02</div><div><b>开源资产</b><span>Demo · README · 样例 · 可复现结果</span></div><em>信任</em></div>
+          <div class="flow-connector"></div>
+          <div class="flowline"><div class="flow-number">03</div><div><b>有效线索</b><span>搜索 · 社区 · 主动咨询 · 自然转化</span></div><em>发现</em></div>
+          <div class="flow-connector"></div>
+          <div class="flowline last"><div class="flow-number active">04</div><div><b>付费交付</b><span>报价 · 合同 · 验收 · 回款 · 复盘</span></div><em class="flow-done">验证 ✓</em></div>
+          <div class="panel-bottom"><span>STARS ≠ REVENUE</span><span>证据优先 <b>↗</b></span></div>
+        </div>
+      </aside>
+    </div>
+    <div class="shell hero-footnote">适用人群：独立开发者、AI 工具创作者、咨询顾问、技术写作者、学生，以及任何想把公开作品变成可信机会的人。</div>
+  </section>
+
+  <section class="manifesto shell section-pad">
+    <span class="section-label">01 / THE PRINCIPLE</span>
+    <div class="manifesto-grid">
+      <div>
+        <h2>别神化 GitHub。<br><span>它只是放大器。</span><br>放大你的能力，也放大你的空话。</h2>
+      </div>
+      <div class="manifesto-copy glass-card soft-card">
+        <p>很多人把 GitHub 当“自动变现平台”，这是第一层误解。GitHub 更像一个公开的能力载体：别人能不能看懂你的项目、复现你的结果、信任你的方法，决定了后面有没有生意。</p>
+        <p>所以别问“发什么容易赚钱”。先问三个问题：<strong>谁在为这个问题付代价？我能不能更高效地解决？我拿什么证明自己不是在吹？</strong></p>
+        <a class="text-link" href="#playbook">看我们怎么拆这条链路 <span>↗</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="paths" class="section-gray section-pad">
+    <div class="shell">
+      <div class="section-head">
+        <div>
+          <span class="section-label">02 / SEVEN BUSINESS MODELS</span>
+          <h2>七条变现路线，<br><span class="muted">先跑通一条，再谈规模化。</span></h2>
+        </div>
+        <p>别一上来同时做咨询、课程、模板、SaaS、赞助。那不是多元化，那是分散注意力。</p>
+      </div>
+      <div id="route-grid" class="route-grid"></div>
+      <div class="section-note glass-strip"><span>✳</span> GitHub Sponsors 有地区、资格、身份和税务门槛。GitHub Pages 适合静态展示，不是免费商业交易或 SaaS 托管平台。<a href="#boundaries">看平台红线 ↗</a></div>
+    </div>
+  </section>
+
+  <section id="finder" class="section-pad shell">
+    <div class="section-head">
+      <div>
+        <span class="section-label">03 / ROUTE FINDER</span>
+        <h2>不知道从哪条开始？<br><span class="muted">两分钟，别选错方向。</span></h2>
+      </div>
+      <p>这是一个方向选择器，不负责给你编财富故事。它只帮你选更适合先验证的一条主线。</p>
+    </div>
+    <div class="finder-layout">
+      <div class="finder-form glass-card">
+        <label for="skill">你最稳定的能力是？</label>
+        <select id="skill">
+          <option value="consult">咨询 / 专业经验 / 教学</option>
+          <option value="dev">开发 / 部署 / 集成</option>
+          <option value="ops">整理资料 / 模板 / SOP</option>
+          <option value="community">长期维护开源社区</option>
+        </select>
+        <label for="asset">你现在最接近哪种状态？</label>
+        <select id="asset">
+          <option value="none">还没项目，想从零开始</option>
+          <option value="demo">已有 Demo / 文档 / 教程</option>
+          <option value="users">已有真实使用者和反馈</option>
+        </select>
+        <label for="goal">你的第一目标是什么？</label>
+        <select id="goal">
+          <option value="quick">先验证有人愿意付费</option>
+          <option value="product">做能长期复用的产品</option>
+          <option value="community">积累公开信用与社区贡献</option>
+        </select>
+        <button id="match-btn" class="btn btn-primary" type="button">生成我的路线建议 ↗</button>
+      </div>
+      <div class="finder-result glass-card" id="finder-result" aria-live="polite">
+        <div class="small-overline">YOUR NEXT MOVE</div>
+        <div class="empty-icon">↗</div>
+        <h3>先别急着做产品。</h3>
+        <p>如果你连“谁愿意付钱、为什么付钱、用什么验证”都没想明白，产品只是拖延症的高级版本。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="playbook" class="section-gray section-pad">
+    <div class="shell">
+      <div class="section-head">
+        <div>
+          <span class="section-label">04 / THE PLAYBOOK</span>
+          <h2>从 0 到第一单，<br><span class="muted">只做五个动作。</span></h2>
+        </div>
+        <p>每一步都带验收标准。没有“多加群”“疯狂群发”“复制一个爆款仓库”这种低质量捷径。</p>
+      </div>
+      <div class="steps">
+        <div class="step glass-card"><div class="step-num">01</div><div class="step-content"><h3>先找愿意付代价的问题</h3><p>别问“你会不会买”。去问对方现在怎么处理、浪费了多久、花过多少钱、最烦哪一步。</p><span>验收：1 张真实问题卡</span></div></div>
+        <div class="step glass-card"><div class="step-num">02</div><div class="step-content"><h3>做一个可复现的开源成果</h3><p>Demo、教程、模板都行。关键不是“发出来”，而是陌生人能不能跟着你的 README 跑通。</p><span>验收：1 个能上手的仓库</span></div></div>
+        <div class="step glass-card"><div class="step-num">03</div><div class="step-content"><h3>只让真正需要的人看到它</h3><p>围绕真实搜索词写标题，围绕真实问题写拆解。不是到处刷屏，而是进入正确场景。</p><span>验收：具体反馈、搜索与咨询证据</span></div></div>
+        <div class="step glass-card"><div class="step-num">04</div><div class="step-content"><h3>把付费交付定义清楚</h3><p>免费内容负责建立信任，付费服务负责解决差异化问题。范围、边界、变更、验收必须写清楚。</p><span>验收：1 张可报价服务卡</span></div></div>
+        <div class="step glass-card"><div class="step-num">05</div><div class="step-content"><h3>算净收入，不算幻觉</h3><p>别只看营收。工时、售后、税费、风险和返工都得算进去，不然只是自我感动。</p><span>验收：是否真实盈利，证据是什么</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="red-team" class="section-pad shell">
+    <div class="section-head">
+      <div>
+        <span class="section-label">05 / RED TEAM REVIEW</span>
+        <h2>对抗式审核。<br><span class="muted">把最容易自嗨的地方先打掉。</span></h2>
+      </div>
+      <p>这部分是整套教程的灵魂。很多人不是不会做，而是太容易在错误指标里获得虚假满足。</p>
+    </div>
+    <div class="red-grid">
+      <article class="red-card glass-card"><div class="red-index">01</div><h3>你验证的是需求，还是验证了自己喜欢这个东西？</h3><p>如果没有目标用户反复提起，也没有过去处理这个问题的成本记录，那大概率只是你的兴趣，不是市场。</p></article>
+      <article class="red-card glass-card"><div class="red-index">02</div><h3>你拿到的是流量，还是拿到了愿意沟通的人？</h3><p>访问量可以证明“有人路过”，但不能证明“有人想买”。最少要追到有效询盘，才算往前一步。</p></article>
+      <article class="red-card glass-card"><div class="red-index">03</div><h3>你展示的是能力，还是只是在堆功能？</h3><p>陌生人能复现、能理解、能看到效果，比你悄悄多写 2000 行代码更有价值。</p></article>
+      <article class="red-card glass-card"><div class="red-index">04</div><h3>你卖的是结果，还是卖模糊承诺？</h3><p>客户不会为“我很努力”付钱，只会为明确交付、确定边界和可验收结果付钱。</p></article>
+      <article class="red-card glass-card"><div class="red-index">05</div><h3>你算的是营收，还是算了真正到手的钱？</h3><p>如果没有扣掉人工、返工、运维、税费和售后，那个数字基本没什么意义。</p></article>
+      <article class="red-card glass-card"><div class="red-index">06</div><h3>你是在建立资产，还是在制造一次性内容垃圾？</h3><p>真正值钱的项目，应该越做越容易沉淀信任和复用素材，而不是每次都从零开始。</p></article>
+    </div>
+    <div class="audit-band glass-card">
+      <div>
+        <span class="small-overline">HARD RULES</span>
+        <h3>先过这 4 个门槛，再说“这个项目能赚钱”。</h3>
+      </div>
+      <ul>
+        <li>有人确实有这个问题，而且问题带来成本。</li>
+        <li>你的仓库能证明你不是纸上谈兵。</li>
+        <li>有人愿意继续沟通，而不是只点个 Star。</li>
+        <li>你能给出清晰可验收的付费交付。</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section-pad shell" id="cases">
+    <div class="section-head">
+      <div>
+        <span class="section-label">06 / FIELD NOTES</span>
+        <h2>从我自己的项目里，<br><span class="muted">看商业机会，也看边界。</span></h2>
+      </div>
+      <p>这些是作者公开项目和已观察到的信号。哪些是事实，哪些只是商业假设，这里会写清楚。</p>
+    </div>
+    <div class="case-grid">
+      <article class="case-card glass-card"><div class="case-head"><span>01 / SEARCH</span><span>观察到搜索线索</span></div><h3>FreeToken</h3><p><strong>已观察到：</strong>百度和 Bing 开始有搜索流量进入。<br><strong>还没证明：</strong>这些流量是否能转成咨询或订单。<br><strong>下一步：</strong>给流量、询盘和成交做归因。</p><a href="https://github.com/AIPMAndy/FreeToken" target="_blank" rel="noopener noreferrer">查看公开项目 ↗</a><div class="case-verdict">关键词：搜索有价值，但搜索 ≠ 收入</div></article>
+      <article class="case-card glass-card"><div class="case-head"><span>02 / PRODUCT</span><span>付费假设待验证</span></div><h3>GoodPaper</h3><p><strong>已观察到：</strong>论文格式是重复劳动，痛点明确。<br><strong>还没证明：</strong>具体谁有权付钱、付费频率如何、客单价能否覆盖交付。<br><strong>下一步：</strong>做付费意愿测试。</p><a href="https://github.com/AIPMAndy/GoodPaper" target="_blank" rel="noopener noreferrer">查看公开项目 ↗</a><div class="case-verdict">关键词：产品价值成立，不代表商业模型成立</div></article>
+      <article class="case-card glass-card"><div class="case-head"><span>03 / CONTENT</span><span>能力证明资产</span></div><h3>HowToBeAnAICreator</h3><p><strong>已观察到：</strong>免费教程非常适合展示方法、结构和执行能力。<br><strong>还没证明：</strong>来自 GitHub 的阅读和真实成交之间的直接关系。<br><strong>下一步：</strong>跟踪内容 → 询盘 → 订单。</p><a href="https://github.com/AIPMAndy/HowToBeAnAICreator" target="_blank" rel="noopener noreferrer">查看公开项目 ↗</a><div class="case-verdict">关键词：教程能建立信任，但信任仍要转化</div></article>
+    </div>
+  </section>
+
+  <section id="learn" class="section-pad section-dark">
+    <div class="shell">
+      <div class="section-head">
+        <div>
+          <span class="section-label label-on-dark">07 / FULL HANDBOOK</span>
+          <h2>20 章实操教程。<br><span class="muted-on-dark">从开始，到做成。</span></h2>
+        </div>
+        <p>全部免费，不先留资，不强制加微信。先把有价值的内容给出去，再谈转化，这才是长期信任的逻辑。</p>
+      </div>
+      <div class="learn-tools">
+        <label class="searchbox glass-card" for="chapter-search"><span aria-hidden="true">⌕</span><input type="search" id="chapter-search" placeholder="搜索章节：报价、README、赞助、搜索..." autocomplete="off"><span class="shortcut">20 CHAPTERS</span></label>
+      </div>
+      <div id="chapter-grid" class="chapter-grid"></div>
+      <div class="learn-footer">
+        <p>全部章节在仓库 <code>chapters/</code> 中有完整 Markdown 版。欢迎你拿着证据来挑错，这会让这个项目更值钱。</p>
+        <a href="https://github.com/AIPMAndy/github-income-handbook" target="_blank" rel="noopener noreferrer" class="btn btn-outline">打开 GitHub 源码 ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="planner" class="section-pad shell">
+    <div class="section-head">
+      <div>
+        <span class="section-label">08 / 30 DAYS TO VALIDATION</span>
+        <h2>30 天执行清单。<br><span class="muted">先拿到一次真实验证。</span></h2>
+      </div>
+      <p>目标不是“保证成交”，而是跑完一条真实链路：问题、资产、流量、询盘、报价、验收、复盘。</p>
+    </div>
+    <div class="progress-top"><div><strong id="progress-count">0 / 16</strong><span> 已完成</span></div><button class="reset-link" type="button" id="reset-checklist">清空打卡</button></div>
+    <div class="progress-track"><div id="progress-fill" class="progress-fill"></div></div>
+    <div id="checklist-grid" class="checklist-grid"></div>
+  </section>
+
+  <section class="section-pad section-gray" id="calculator">
+    <div class="shell">
+      <div class="section-head">
+        <div>
+          <span class="section-label">09 / UNIT ECONOMICS</span>
+          <h2>算算这门生意，<br><span class="muted">到底能不能赚。</span></h2>
+        </div>
+        <p>这不是财富模拟器，而是防止你用错误指标自我麻醉的一个小工具。</p>
+      </div>
+      <div class="calc-layout">
+        <div class="calc-inputs glass-card">
+          <div class="calc-group"><label for="visitors">假设本月有效访问 <span id="v-visitors">1,000</span></label><input type="range" id="visitors" min="0" max="20000" step="100" value="1000"></div>
+          <div class="calc-group"><label for="lead-rate">假设有效询盘率 <span id="v-lead-rate">2%</span></label><input type="range" id="lead-rate" min="0" max="20" step="0.5" value="2"></div>
+          <div class="calc-group"><label for="close-rate">假设询盘成交率 <span id="v-close-rate">10%</span></label><input type="range" id="close-rate" min="0" max="100" step="1" value="10"></div>
+          <div class="calc-group"><label for="price">假设单笔实收客单价 <span id="v-price">¥1,000</span></label><input type="range" id="price" min="0" max="30000" step="100" value="1000"></div>
+          <div class="calc-group"><label for="cost">假设总成本（含人工等） <span id="v-cost">¥800</span></label><input type="range" id="cost" min="0" max="50000" step="100" value="800"></div>
+        </div>
+        <div class="calc-result glass-card">
+          <span class="small-overline">ILLUSTRATIVE · NOT A FORECAST</span>
+          <p>推演净额（不等于税后净利润）</p>
+          <strong id="calc-net">¥1,200</strong>
+          <div class="calc-rows">
+            <div><span>理论询盘人数</span><b id="calc-leads">20.0</b></div>
+            <div><span>理论成交单数（期望值）</span><b id="calc-orders">2.0</b></div>
+            <div><span>推演收入</span><b id="calc-revenue">¥2,000</b></div>
+            <div><span>假设成本</span><b id="calc-cost">¥800</b></div>
+          </div>
+          <p class="calc-warning">实际订单是整数，期望值可以是小数；税费口径请按所在地核算。这里没有使用任何你的真实经营数据。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="boundaries" class="section-pad shell">
+    <div class="section-head">
+      <div>
+        <span class="section-label">10 / NO SHORTCUTS</span>
+        <h2>五条红线，<br><span class="muted">避开比赚钱更大的坑。</span></h2>
+      </div>
+      <p>短期噱头很容易做，长期可信度更难做，也更值钱。</p>
+    </div>
+    <div class="boundary-list">
+      <div class="glass-card"><b>01</b><h3>不要买 Star、刷流量或抄仓库</h3><p>假指标解决不了真实成交，侵权和虚假数据只会提前透支信任。</p></div>
+      <div class="glass-card"><b>02</b><h3>不要把 GitHub Pages 当交易或 SaaS 平台</h3><p>Pages 适合展示、文档和内容分发。收费产品与交易链路应该独立合规部署。</p></div>
+      <div class="glass-card"><b>03</b><h3>不要假装所有人都能收 GitHub Sponsors</h3><p>先确认地区、账户、身份、支付与税务资格，无法确认就别把它写成确定收益。</p></div>
+      <div class="glass-card"><b>04</b><h3>不要在公开 Issue 索取敏感信息</h3><p>客户资料、密钥和商务合同都不该出现在公开仓库里。</p></div>
+      <div class="glass-card"><b>05</b><h3>不要拿假设营收冒充真实案例</h3><p>访问、粉丝、Stars 和订单根本不是一回事。混着说，就是误导。</p></div>
+    </div>
+    <p class="source-links">官方参考：<a href="https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits" target="_blank" rel="noopener noreferrer">Pages 规则 ↗</a> · <a href="https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors" target="_blank" rel="noopener noreferrer">Sponsors 资格 ↗</a> · <a href="https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/viewing-traffic-to-a-repository" target="_blank" rel="noopener noreferrer">仓库数据口径 ↗</a> · <a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository" target="_blank" rel="noopener noreferrer">许可证 ↗</a></p>
+  </section>
+
+  <section class="author-band">
+    <div class="shell author-layout">
+      <div>
+        <span class="section-label label-on-dark">FROM THE CREATOR</span>
+        <h2>工具公开，方法公开。<br>能验证的结果，才算数。</h2>
+        <p>我是 AI 酋长 Andy。做 AI 产品、开源项目和咨询交付。这份指南会继续围绕真实问题迭代，也欢迎你拿着证据来对抗式审核我。</p>
+      </div>
+      <div class="author-actions">
+        <a class="btn btn-light" href="https://metaver.vip/" target="_blank" rel="noopener noreferrer">访问官网 ↗</a>
+        <a class="btn btn-outline" href="https://metaver.vip/services" target="_blank" rel="noopener noreferrer">查看服务 ↗</a>
+        <button class="btn btn-outline" type="button" data-copy-wechat>复制微信 AIPMAndy ↗</button>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="shell footer-grid">
+    <div>
+      <div class="footer-brand">GitHub Income<span> / Handbook</span></div>
+      <p>用公开能力建立信任，用真实交付验证收入。</p>
+      <p>© 2026 AI 酋长 Andy · Code MIT / Content CC BY 4.0</p>
+    </div>
+    <div class="footer-links">
+      <a href="#top">返回顶部 ↑</a>
+      <a href="https://github.com/AIPMAndy/github-income-handbook" target="_blank" rel="noopener noreferrer">GitHub 项目 ↗</a>
+      <a href="https://metaver.vip/" target="_blank" rel="noopener noreferrer">个人官网 ↗</a>
+      <a href="https://metaver.vip/services" target="_blank" rel="noopener noreferrer">咨询服务 ↗</a>
+      <button type="button" data-copy-wechat>微信 AIPMAndy（复制）</button>
+    </div>
+  </div>
+  <div class="shell footer-last">免责声明：本项目为开源教育内容，不承诺任何收入；第三方政策可能调整，请以官方为准。</div>
+</footer>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<dialog id="chapter-dialog" class="chapter-dialog" aria-labelledby="dialog-title">
+  <div class="dialog-wrap glass-card">
+    <div class="dialog-head">
+      <div class="dialog-badge" id="dialog-title">HANDBOOK / CHAPTER</div>
+      <button type="button" class="dialog-close" id="dialog-close" aria-label="关闭章节">×</button>
+    </div>
+    <div id="dialog-content"></div>
+    <div class="dialog-actions">
+      <a id="dialog-markdown" target="_blank" rel="noopener noreferrer" href="#">阅读完整 Markdown ↗</a>
+      <button type="button" id="dialog-done" class="btn btn-primary">知道了，继续下一章 ↗</button>
+    </div>
+  </div>
+</dialog>
+</body>
+</html>

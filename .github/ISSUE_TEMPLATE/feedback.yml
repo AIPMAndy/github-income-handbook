@@ -1,0 +1,28 @@
+name: "教程问题 / 事实纠错"
+description: "反馈不可复现的操作、过时官方政策、事实问题"
+title: "[反馈] "
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 类型
+      options:
+        - 步骤无法复现
+        - 官方政策变化
+        - 错误引用 / 事实纠错
+        - 网站显示问题
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题与复现方式
+      description: "请勿上传 API Key、客户隐私、收款信息或其他敏感数据"
+      placeholder: "问题出现在第几章？操作到哪一步？预期是什么？"
+    validations:
+      required: true
+  - type: input
+    id: evidence
+    attributes:
+      label: 可公开核验的证据链接（选填）

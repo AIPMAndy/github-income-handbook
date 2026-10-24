@@ -1,0 +1,15 @@
+name: Content & site check
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/check.py
+      - run: node --check assets/app.js
+      - run: node --check data/chapters.js
+      - run: node --check data/routes.js
