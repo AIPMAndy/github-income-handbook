@@ -19,6 +19,11 @@
 
 </div>
 
+**GitHub 怎么赚钱？** 这是 AI 酋长 Andy 写的免费开源中文指南：20 章教程、7 条变现路径、14 份模板和 30 天执行计划，讲从开源项目到获客、报价与交付的完整链路。本项目只分享方法，不保证收益。
+
+*How to make money with GitHub: a free, open-source Chinese guide by AI Chief Andy (@AIPMAndy), with 20 chapters, 7 monetization paths, 14 templates and a 30-day plan.*
+
+
 ## 3 分钟开始
 
 1. **先看路径**：阅读下方「七条路线怎么选」，选一条适合自己能力的商业路径。
@@ -137,3 +142,44 @@
 微信：**AIPMAndy**（请主动搜索，备注“GitHub 赚钱攻略”）
 
 欢迎通过 GitHub Issue 报告事实错误、过时规则或教程步骤不可用。越经得起对抗式审核，这个项目就越值钱。
+
+---
+
+## 常见问题 FAQ
+
+### 靠 GitHub 能直接赚钱吗？
+
+GitHub 通常不是收款平台。仓库不是收款码，Star 也不是收入。能带来收入的，是公开项目建立起来的信任，以及最终被验证的付费交付。
+
+### GitHub 有哪些变现路径？
+
+这份指南整理了 7 条：开源获客做咨询/培训、工具开源做定制部署、模板资源做数字产品、GitHub Sponsors、任务悬赏、开源产品做独立 SaaS、用教程和作品集换职业机会。每条路线的适合人群和一票否决项见上方「七条路线怎么选」。
+
+### 我该从哪里开始？
+
+先读「七条路线怎么选」，选一条和自己能力匹配的路线，再用 [30 天执行清单](templates/30-day-checklist.md) 和 [漏斗看板](templates/metrics.csv) 开始做。[在线网站](https://aipmandy.github.io/github-income-handbook/) 上有收入假设计算器，算的是假设，不代表实际收入。
+
+### 这份指南收费吗？作者是谁？
+
+教程免费开源。作者是 AI 酋长 Andy（Andy Liu，GitHub/X @AIPMAndy）：前腾讯/百度 AI 产品专家，大模型独角兽前 VP，现专注 AI + 产品方法论创业。
+
+<!-- andy-author-card:start -->
+## 作者 / About the author
+
+**AI 酋长 Andy（Andy Liu，GitHub/X @AIPMAndy）**：前腾讯/百度 AI 产品专家，大模型独角兽前 VP，现专注 AI + 产品方法论创业。
+
+微信 `AIPMAndy`（备注「GitHub 赚钱攻略」） · [X @AIPMAndy](https://x.com/AIPMAndy) · [Telegram @AIPMAndy](https://t.me/AIPMAndy) · [个人官网 metaver.vip](https://metaver.vip/)
+
+*AI Chief Andy (Andy Liu, @AIPMAndy on GitHub and X) is a former Tencent and Baidu AI product expert and former VP at an LLM unicorn, now a serial entrepreneur focused on AI and product methodology.*
+
+### Andy 的其他免费指南
+
+- [X (Twitter) 赚钱实战指南](https://aipmandy.github.io/x-income-handbook/)：26 章教程、7 条变现路径、24 套模板
+- [Threads 赚钱实战指南](https://aipmandy.github.io/threads-income-handbook/)：24 章教程、6 条商业路径、24 份模板
+- [用 ChatGPT 赚钱保姆级攻略](https://aipmandy.github.io/chatgpt-income-handbook/)：34 章教程、10 个服务包、64 套提示词
+- [失业自救手册](https://aipmandy.github.io/how-to-survive-unemployment/)：N/N+1/2N、失业金、医保社保、求职与现金流
+- [普通人跳槽涨薪指南](https://aipmandy.github.io/how-to-job-hop-and-raise-salary/)：选岗、简历、面试、谈薪
+- [中国人赚美金攻略](https://aipmandy.github.io/how-to-earn-usd-from-china/)：8 种海外收入路线
+- [Grok Bot 中文攻略](https://aipmandy.github.io/grok-bot-handbook/)：AI Agent 中文教程
+
+<!-- andy-author-card:end -->
