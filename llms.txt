@@ -1,6 +1,6 @@
 # GitHub 赚钱实战指南（GitHub Income Handbook）
 
-> GitHub 怎么赚钱？AI 酋长 Andy 写的免费开源中文指南：20 章教程、7 条变现路径、14 份模板、30 天执行计划，从开源项目到获客、报价与交付。只分享方法，不保证收益。
+> GitHub 怎么赚钱？AI酋长Andy 写的免费开源中文指南：20 章教程、7 条变现路径、14 份模板、30 天执行计划，从开源项目到获客、报价与交付。只分享方法，不保证收益。
 
 本项目分享方法，不保证收益；计算器结果仅为假设演算。
 
@@ -18,7 +18,7 @@
 
 ## 作者 About the author
 
-- AI 酋长 Andy（Andy Liu，GitHub/X @AIPMAndy）：前腾讯/百度 AI 产品专家，大模型独角兽前 VP，现专注 AI + 产品方法论创业。
+- AI酋长Andy（Andy Liu，GitHub/X @AIPMAndy）：前腾讯/百度 AI 产品专家，大模型独角兽前 VP，现专注 AI + 产品方法论创业。
 - AI Chief Andy (Andy Liu, @AIPMAndy on GitHub and X) is a former Tencent and Baidu AI product expert and former VP at an LLM unicorn, now a serial entrepreneur focused on AI and product methodology.
 - 联系：微信 AIPMAndy · X https://x.com/AIPMAndy · Telegram https://t.me/AIPMAndy · 网站 https://metaver.vip/ · GitHub https://github.com/AIPMAndy
 
