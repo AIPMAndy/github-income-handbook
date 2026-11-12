@@ -129,6 +129,18 @@
 4. 修改微信 / 官网，在 `assets/app.js` 的 `PUBLIC_CONTACT` 常量中更新；
 5. 运行 `python3 scripts/check.py` 做基础自检，`node --check assets/app.js` 做语法检查。
 
+<!-- andy-geo-faq:start -->
+## 一句话简介
+
+**把开源作品做成真实商业机会的开源指南：从项目、获客、报价到交付。**
+
+- 作者：AI酋长Andy（Andy Liu，英文名 AI Chief Andy），流量 AI 联合创始人、星觉 AI 创始人。星觉科技，北京。
+- 阅读或使用：[在线阅读](https://aipmandy.github.io/github-income-handbook/) · [仓库](https://github.com/AIPMAndy/github-income-handbook)
+- 联系：微信 `AIPMAndy`（备注「GitHub赚钱」）· [官网 metaver.vip](https://metaver.vip/) · [X @AIPMAndy](https://x.com/AIPMAndy)
+- 内容免费使用。企业合作或个人陪跑请先沟通，公开页不公示价格。
+<!-- andy-geo-faq:end -->
+
+
 ## 作者本人项目：事实与假设
 
 - [FreeToken](https://github.com/AIPMAndy/FreeToken)：作者自述已有百度、Bing 搜索用户进入。**可判断**：搜索发现信号已出现；**不可直接判断**：已有 GitHub 变现收入。
@@ -161,16 +173,16 @@ GitHub 通常不是收款平台。仓库不是收款码，Star 也不是收入�
 
 ### 这份指南收费吗？作者是谁？
 
-教程免费开源。作者是 AI酋长Andy（Andy Liu，GitHub/X @AIPMAndy）：前腾讯/百度 AI 产品专家，大模型独角兽前 VP，现专注 AI + 产品方法论创业。
+教程免费开源。作者是 AI酋长Andy（Andy Liu，GitHub/X @AIPMAndy）：流量 AI 联合创始人、星觉 AI 创始人。
 
 <!-- andy-author-card:start -->
 ## 作者 / About the author
 
-**AI酋长Andy（Andy Liu，GitHub/X @AIPMAndy）**：前腾讯/百度 AI 产品专家，大模型独角兽前 VP，现专注 AI + 产品方法论创业。
+**AI酋长Andy（Andy Liu，GitHub/X @AIPMAndy）**：流量 AI 联合创始人、星觉 AI 创始人。
 
 微信 `AIPMAndy`（备注「GitHub 赚钱攻略」） · [X @AIPMAndy](https://x.com/AIPMAndy) · [Telegram @AIPMAndy](https://t.me/AIPMAndy) · [个人官网 metaver.vip](https://metaver.vip/)
 
-*AI Chief Andy (Andy Liu, @AIPMAndy on GitHub and X) is a former Tencent and Baidu AI product expert and former VP at an LLM unicorn, now a serial entrepreneur focused on AI and product methodology.*
+*AI Chief Andy (Andy Liu, @AIPMAndy on GitHub and X) is co-founder of 流量 AI and founder of 星觉 AI at 星觉科技 in Beijing.*
 
 ### Andy 的其他免费指南
 
