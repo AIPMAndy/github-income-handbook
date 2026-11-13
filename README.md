@@ -150,6 +150,7 @@
 ## 联系
 
 官网：**https://metaver.vip/**  
+公司官网：**https://www.a6no1.cn/**  
 服务：**https://metaver.vip/services**  
 微信：**AIPMAndy**（请主动搜索，备注“GitHub 赚钱攻略”）
 
@@ -180,7 +181,7 @@ GitHub 通常不是收款平台。仓库不是收款码，Star 也不是收入�
 
 **AI酋长Andy（Andy Liu，GitHub/X @AIPMAndy）**：流量 AI 联合创始人、星觉 AI 创始人。
 
-微信 `AIPMAndy`（备注「GitHub 赚钱攻略」） · [X @AIPMAndy](https://x.com/AIPMAndy) · [Telegram @AIPMAndy](https://t.me/AIPMAndy) · [个人官网 metaver.vip](https://metaver.vip/)
+微信 `AIPMAndy`（备注「GitHub 赚钱攻略」） · [X @AIPMAndy](https://x.com/AIPMAndy) · [Telegram @AIPMAndy](https://t.me/AIPMAndy) · [个人官网 metaver.vip](https://metaver.vip/) · [星觉科技官网](https://www.a6no1.cn/)
 
 *AI Chief Andy (Andy Liu, @AIPMAndy on GitHub and X) is co-founder of 流量 AI and founder of 星觉 AI at 星觉科技 in Beijing.*
 

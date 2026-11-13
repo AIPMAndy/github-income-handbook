@@ -1,5 +1,5 @@
 'use strict';
-const PUBLIC_CONTACT = Object.freeze({wechat:'AIPMAndy',website:'https://metaver.vip/',services:'https://metaver.vip/services'});
+const PUBLIC_CONTACT = Object.freeze({wechat:'AIPMAndy',website:'https://metaver.vip/',services:'https://metaver.vip/services',company:'https://www.a6no1.cn/'});
 const chapters = Array.isArray(window.HANDBOOK_CHAPTERS) ? window.HANDBOOK_CHAPTERS : [];
 const routes = Array.isArray(window.HANDBOOK_ROUTES) ? window.HANDBOOK_ROUTES : [];
 const byId = id => document.getElementById(id);

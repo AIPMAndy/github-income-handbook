@@ -14,11 +14,11 @@ else:
   if d['num']!=f'{i:02d}':errors.append('Wrong chapter number')
   if not list((root/'chapters').glob(f'{i:02d}-*.md')):errors.append('Missing markdown chapter '+str(i))
 html=(root/'index.html').read_text(encoding='utf-8')
-for required in ['id="finder"','id="planner"','id="chapter-dialog"','id="calculator"','AIPMAndy','metaver.vip']:
+for required in ['id="finder"','id="planner"','id="chapter-dialog"','id="calculator"','AIPMAndy','metaver.vip','a6no1.cn']:
  if required not in html:errors.append('Missing HTML content '+required)
 for x in re.findall(r'(?:src|href)="(\./[^"]+)"',html):
  if not (root/x[2:]).exists():errors.append('Broken local ref '+x)
-for a in ['AIPMAndy','https://metaver.vip/']:
+for a in ['AIPMAndy','https://metaver.vip/','https://www.a6no1.cn/']:
  if a not in (root/'README.md').read_text(encoding='utf-8'):errors.append('Missing contact in README')
 if errors:
  print('FAILED: '+'\n - '.join(errors));sys.exit(1)
