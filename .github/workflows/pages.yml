@@ -1,10 +1,10 @@
-name: Deploy GitHub Pages
+name: Build PDF and deploy GitHub Pages
 on:
   push:
     branches: [main]
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 concurrency:
@@ -15,15 +15,58 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
     steps:
-      - name: Checkout
+      - name: Checkout canonical Markdown and website
         uses: actions/checkout@v4
-      - name: Validate source
-        run: python3 scripts/check.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Source checks
+        run: |
+          python scripts/check.py
+          node --check assets/app.js
+          node --check data/chapters.js
+      - name: Install PDF generation and render QA dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-cjk libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz0b
+          python -m pip install --disable-pip-version-check weasyprint==68.0 markdown==3.10 pymupdf==1.26.6 pillow==12.0.0
+      - name: Build PDF from Markdown and validate every page
+        run: |
+          set -euo pipefail
+          export EDITION_DATE="$(git log -1 --format=%cs -- chapters research templates scripts/build_pdf.py)"
+          python scripts/build_pdf.py
+          python scripts/pdf_quality_gate.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report=json.loads(Path('artifacts/pdf-qa/report.json').read_text(encoding='utf-8'))
+          edition={k:report[k] for k in ('pdf','sha256','pages','bookmarks','annotations_and_links','every_page_rendered')}
+          Path('pdf/edition.json').write_text(json.dumps(edition,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+      - name: Preserve full PDF review images
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: github-income-pdf-qa
+          path: artifacts/pdf-qa/
+          if-no-files-found: warn
+          retention-days: 30
+      - name: Commit public PDF edition without overwriting others
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pdf/github-income-handbook.pdf pdf/edition.json
+          if ! git diff --cached --quiet; then
+            git commit -m "docs(pdf): sync generated GitHub income handbook"
+            git push origin HEAD:main
+          fi
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Upload static site
+      - name: Upload verified site with matching PDF
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
