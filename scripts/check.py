@@ -17,6 +17,8 @@ html=(root/'index.html').read_text(encoding='utf-8')
 for required in ['id="finder"','id="planner"','id="chapter-dialog"','id="calculator"','AIPMAndy','metaver.vip','a6no1.cn']:
  if required not in html:errors.append('Missing HTML content '+required)
 for x in re.findall(r'(?:src|href)="(\./[^"]+)"',html):
+ # The PDF is deterministically generated during the Pages workflow, before upload.
+ if x == './pdf/github-income-handbook.pdf' and not (root/x[2:]).exists():continue
  if not (root/x[2:]).exists():errors.append('Broken local ref '+x)
 for a in ['AIPMAndy','https://metaver.vip/','https://www.a6no1.cn/']:
  if a not in (root/'README.md').read_text(encoding='utf-8'):errors.append('Missing contact in README')
