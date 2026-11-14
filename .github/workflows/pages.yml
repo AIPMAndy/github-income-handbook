@@ -73,3 +73,34 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Verify public Pages and PDF SHA-256 after deployment
+        run: |
+          python - <<'PY'
+          import hashlib, json, time, urllib.request
+          from pathlib import Path
+          root="https://aipmandy.github.io/github-income-handbook/"
+          expected=json.loads(Path("pdf/edition.json").read_text())["sha256"]
+          def get(path):
+              request=urllib.request.Request(root+path,headers={"User-Agent":"Xingjue-Pages-Release-QA/1.0"})
+              with urllib.request.urlopen(request,timeout=15) as response:
+                  assert response.status==200,(path,response.status)
+                  return response.read()
+          for attempt in range(24):
+              try:
+                  html=get("")
+                  assert b"pdf/github-income-handbook.pdf" in html
+                  assert b"metaver.vip" in html and b"a6no1.cn" in html and b"AIPMAndy" in html
+                  pdf=get("pdf/github-income-handbook.pdf?edition="+expected[:12])
+                  actual=hashlib.sha256(pdf).hexdigest()
+                  assert actual==expected,(actual,expected)
+                  robots=get("robots.txt")
+                  sitemap=get("sitemap.xml")
+                  assert b"Sitemap" in robots and b"<urlset" in sitemap
+                  print("LIVE PASS: homepage + robots + sitemap HTTP 200; PDF SHA-256",actual)
+                  break
+              except Exception as exc:
+                  if attempt==23: raise
+                  print(f"Live deployment not ready ({attempt+1}/24): {exc}")
+                  time.sleep(5)
+          PY
