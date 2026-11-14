@@ -11,7 +11,7 @@
 <a href="LICENSE"><img alt="开源许可" src="https://img.shields.io/github/license/AIPMAndy/github-income-handbook?style=flat-square" /></a>
 <a href="https://github.com/AIPMAndy/github-income-handbook/actions/workflows/pages.yml"><img alt="GitHub Pages" src="https://github.com/AIPMAndy/github-income-handbook/actions/workflows/pages.yml/badge.svg" /></a>
 </p>
-<p><strong><a href="https://aipmandy.github.io/github-income-handbook/">📖 在线网站</a> · <a href="templates/30-day-checklist.md">🗺️ 30 天计划</a> · <a href="templates/metrics.csv">📊 漏斗看板</a></strong></p>
+<p><strong><a href="https://aipmandy.github.io/github-income-handbook/">📖 在线网站</a> · <a href="pdf/github-income-handbook.pdf">📄 PDF 完整版</a> · <a href="templates/30-day-checklist.md">🗺️ 30 天计划</a> · <a href="templates/metrics.csv">📊 漏斗看板</a></strong></p>
 
 <p><a href="https://github.com/AIPMAndy/github-income-handbook">GitHub 赚钱</a>　·　<a href="https://github.com/AIPMAndy/x-income-handbook">X 赚钱</a>　·　<a href="https://github.com/AIPMAndy/threads-income-handbook">Threads 赚钱</a></p>
 
